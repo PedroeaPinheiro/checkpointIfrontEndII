@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <div class="lacuna">
+                <label for="titulo">Título</label>
+                <input type="text" name="titulo" id="titulo" required/>
+            </div>
+            <div class="lacuna">
+                <label for="card">URL da Imagem</label>
+                <input type="text" name="card" id="card" required/>
+            </div>
+            <div class="lacuna">
+                <label for="descricao">Descrição</label>
+                <textarea type="text" name="descricao" id="descricao" placeholder="Mensagem" required></textarea>
+            </div>
+            <div class="botao">
+                <button type="submit">Criar card</button>
+            </div>
+        </form>
+    </div>
+    <div class="lista-cards"></div>
+    <script src="script.js"></script>
+</body>
+</html>

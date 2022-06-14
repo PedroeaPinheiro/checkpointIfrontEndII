@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(100deg, #1c1012, #09113a);
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.container {
+    padding: 30px 30px;
+    display: flex;
+}
+form {
+    background: rgba(255,255,255,0.3);
+    padding: 3em;
+    height: 320px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.lacuna {
+    padding: 15px
+}
+
+label {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.lacuna input {
+    width: 100%;
+    display: block;
+    padding: 2px;
+    color: black;
+}
+
+.lista-cards {
+    position: relative;
+    margin-top: 30px;
+    width: 500px;
+    background: linear-gradient(rgba(133, 73, 17, 0.3), rgba(71, 12, 12, 0.699));
+    padding: 30px 30px;
+    top: .4em;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    color: #fff;
+    display: none;
+}
+
+
+
+
+
+
