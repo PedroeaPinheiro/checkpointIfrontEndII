@@ -1,5 +1,7 @@
 Checkpoint 1 da displina de Front End II do curso CTD.
 
+Link para o GitHub Pages: https://pedroeapinheiro.github.io/checkpointIfrontEndII/
+
 Observações:
 - O projeto é usado para criar cards baseadas nas informações requeridas pelo usuário
 - Os campos "Título" e "Descrição" são obrigatórios e devem ser preenchidos com um texto.
